@@ -1,0 +1,95 @@
+.box1 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 768px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 34px;
+    font-weight: bold;
+}
+.mainpic{
+    width: 100%;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+h1{
+    font-size: 34px;
+    text-align: center;
+}
+.circle{
+    border-radius:50%;
+    width: 280px;
+    height: 280px;
+}
+main{
+    align-items: center;
+    justify-content: space-between;
+    min-width: 768px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+h2{
+    font-size: 14px;
+}
+.name{
+    font-size: 24px;
+    font-weight: bold;
+}
+.about{
+    display: flex;
+}
+.content{
+    margin: 0 auto;
+    padding-left: 40px;
+}
+img{
+    margin: 0 auto;
+    max-width: 100%;
+}
+.circle{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border: 3px solid #999;
+    padding: 3px;
+}
+.works {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    max-width: 960px;
+}
+.content {
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+/* Worksの画像と説明部分 */
+.item {
+    padding-bottom: 60px;
+    width: 25%;
+}
+
+/* Worksの画像と説明部分（2個目） */
+.item_center {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+footer{
+    text-align: center;
+}
